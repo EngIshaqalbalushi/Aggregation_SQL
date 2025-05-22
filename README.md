@@ -1,26 +1,33 @@
-# Aggregation
+# Aggregation (SQL Server)
 
-Aggregation is a [brief description of the project] designed to [explain what the project does in one sentence].
+**Aggregation** is a SQL Server-based project designed to efficiently collect, process, and summarize data from multiple sources. It provides a foundation for building robust data aggregation pipelines using T-SQL.
 
-## Features
+## 📌 Features
 
-- 🚀 Fast and efficient aggregation of data
-- 🔄 Supports multiple data sources/formats
-- 🛠️ Easily customizable and extensible
-- 📊 Output results in various formats (JSON, CSV, etc.)
+- SQL Server-based data aggregation
+- Efficient summarization and transformation of large datasets
+- Modular and reusable stored procedures
+- Easy-to-extend schema and logic
 
-## Getting Started
+## 🏗️ Database Structure
+
+This project includes:
+
+- Database creation script (`create_database.sql`)
+- Table creation scripts (`tables/`)
+- Stored procedures for aggregation (`procedures/`)
+- Sample data for testing (`sample_data.sql`)
+
+## 🛠️ Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
+- Microsoft SQL Server (2017+ recommended)
+- SQL Server Management Studio (SSMS) or Azure Data Studio
 
-- [Language/runtime, e.g., Python 3.10 / Node.js / .NET 6.0 / SQL Server]
-- [Any dependencies or tools, like Docker, Git, etc.]
+### Setup Instructions
 
-### Installation
-
-Clone the repository:
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/yourusername/aggregation.git
